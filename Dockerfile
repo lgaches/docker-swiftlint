@@ -1,6 +1,6 @@
-FROM norionomura/swift:403
+FROM norionomura/swift:42
 
-ENV SWIFTLINT_REVISION="0.24.2" \
+ENV SWIFTLINT_REVISION="0.27.0" \
     SWIFTLINT_BUILD_DIR="/swiftlint_build" \
     LINT_WORK_DIR="/swiftlint"
 
